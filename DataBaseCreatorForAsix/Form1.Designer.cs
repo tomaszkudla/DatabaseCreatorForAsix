@@ -49,7 +49,8 @@
             // 
             // lvTags
             // 
-            this.lvTags.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lvTags.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lvTags.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.TagName,
@@ -155,6 +156,7 @@
             // 
             // cbPreview
             // 
+            this.cbPreview.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.cbPreview.AutoSize = true;
             this.cbPreview.Location = new System.Drawing.Point(12, 385);
             this.cbPreview.Name = "cbPreview";
@@ -257,6 +259,7 @@
             this.Controls.Add(this.ssStatus);
             this.Controls.Add(this.lvTags);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(1125, 634);
             this.Name = "Form1";
             this.Text = "Database Creator For Asix";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);

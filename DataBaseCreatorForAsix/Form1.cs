@@ -37,6 +37,7 @@ namespace DataBaseCreatorForAsix
             rbOverwrite.Checked = false; //adding tags is default option
             rbAdd.Checked = true; 
             ssLabel.Text = "Press \"Get OPC tags\" to start";
+            Tags = new List<Tag>(); 
         }
 
 
